@@ -1,0 +1,207 @@
+/* This html is for Smartphone */
+/* max-width: 959pxまでの幅の場合に適応される */
+@media screen and (max-width: 959px){
+body {
+  background-color: #FDFDFD;
+      font-family: "-apple-system,BlinkMacSystemFont,.SFNSDisplay-Regular,Aktiv Grotesk,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,YuGothic,游ゴシック,sans-serif";
+      font-style: normal;
+      font-weight: 400;
+}
+}
+
+/* 全体の共通 */
+@media screen and (max-width: 959px){
+.l-content{
+  /* width: 960px; */
+  background-color: #D3DEF1;
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* margin-bottom: 20px; */
+  margin: 0 20px;
+  padding:0;
+}
+}
+
+@media screen and (max-width: 959px){
+.l-list{
+  /* margin-bottom: 0; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 959px){
+.l-list_title{
+  /* margin-top: 0; */
+  text-align: left;
+  margin-bottom: 0;
+}
+}
+
+.ml10 {
+  margin-left: 10px !important;
+}
+
+/* career section以降の共通 */
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5pm;
+  font-weight: bold;
+}
+
+/* mouse hover時の設定 */
+.hvr-underline-reveal {
+  position: relative;
+}
+
+.hvr-underline-reveal::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #2196F3;
+  transition: all 0.3s ease 0s;
+}
+.hvr-underline-reveal:hover {
+  cursor: pointer;
+}
+.hvr-underline-reveal:hover::after {
+  width: 100%;
+}
+
+/* header設定 */
+@media screen and (max-width: 959px){
+.l-header{
+  width: 100%;
+  margin: 20px 0;
+}
+}
+
+@media screen and (max-width: 959px){
+.l-header_title {
+    text-align: center;
+    font-size: 40px;
+    /* font-size: 60px; */
+    /* margin-bottom: 20px; */
+    font-family: 'Pacifico', cursive;
+}
+}
+
+h1{
+    margin: .67em 0;
+}
+
+/* careerの設定 */
+@media screen and (max-width: 959px){
+.l-box_items{
+  margin: 0 10px;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 959px){
+.l-box_items_item{
+  width: 300px;
+  max-width: 100%;
+  height: 210px;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 0;
+}
+}
+
+/* careerの画像を上端揃えにする*/
+.vertical_align{
+  vertical-align: top;
+}
+
+@media screen and (max-width: 959px){
+.l-box_items_item_image{
+  max-width: 281px;
+  max-height: 150px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+}
+
+@media screen and (max-width: 959px){
+.l-box_items_item_title{
+  height: 30px;
+  margin-top: 5px;
+}
+}
+
+/* Bookの設定 */
+@media screen and (max-width: 959px){
+.l-image_items{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 959px){
+.l-image_items_item{
+  margin-top: 0;
+  padding-left: 50px;
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 959px){
+.l-image_items_item_image{
+  float: left;
+  width: 20%;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+}
+
+@media screen and (max-width: 959px){
+.l-image_items_item_title{
+  float:left;
+  width: 60%;
+  text-align: left;
+  margin-left: 5%;
+}
+}
+
+p{
+  margin:0;
+}
+
+/* Articles & Activitiesの設定*/
+.l-list_items{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul{
+  display: block;
+}
+
+@media screen and (max-width: 959px){
+.l-list_items_item{
+  padding: 2px 0;
+}
+}
+
+/* footerの設定*/
+@media screen and (max-width: 959px){
+footer{
+  margin: 40px 0;
+}
+}
+
+.f-right{
+  float: right;
+}
+
+footer a{
+  display: inline-block;
+}
